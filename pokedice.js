@@ -1,5 +1,5 @@
-Hooks.on('diceSoNiceReady', (dice3d) => {
-	dice3d.addSystem({id: "pokedice", name: "Pokeball Dice"}, false);
+Hooks.once('diceSoNiceReady', (dice3d) => {
+	dice3d.addSystem({id: "pokedice", name: "PokeDice"}, false);
 	dice3d.addDicePreset({
 	  type: "d20",
 	  labels: "",
