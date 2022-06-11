@@ -1,18 +1,16 @@
 {
-  "name": "pokedice",
-  "title": "Pokedice - pokemon themed dice for dice so nice.",
-  "description": "Pokemon themed dice created for dice so nice.",
-  "author": "Caturday",
-  "version": "1.0.0",
-  "minimumCoreVersion": "9",
-  "dependencies": [
-	{
-	"name": "dice-so-nice",
-	"manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/2.0.3/module/module.json",
-	},
-	"esmodules": [
-	],
-	 "scripts": [
-	"scripts/pokedice.js"
+	"name": "pokedice",
+	"title": "Pokedice - pokemon themed dice for dice so nice.",
+	"description": "Pokemon themed dice created for dice so nice.",
+	"author": "Caturday",
+	"version": "1.0.0",
+	"minimumCoreVersion": "9",
+	"dependencies": [{
+		"name": "dice-so-nice",
+		"manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/2.0.3/module/module.json"
+	}],
+	"esmodules": [],
+	"scripts": [
+		"scripts/pokedice.js"
 	]
 }
