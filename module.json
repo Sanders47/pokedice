@@ -5,12 +5,16 @@
 	"author": "Caturday",
 	"version": "1.0.0",
 	"minimumCoreVersion": "9",
-	"dependencies": [{
+	"dependencies": [
+		{
+		"type": "module",
 		"name": "dice-so-nice",
-		"manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/2.0.3/module/module.json"
-	}],
-	"esmodules": [],
+		}
+	],
 	"scripts": [
 		"scripts/pokedice.js"
-	]
+	],
+	"url":"https://github.com/Sanders47/pokedice",
+	"manifest":"https://raw.githubusercontent.com/Sanders47/pokedice/main/module.json",
+	"download":"https://github.com/Sanders47/pokedice/raw/main/pokedice.zip"
 }
