@@ -12,7 +12,7 @@
 		}
 	],
 	"scripts": [
-		"scripts/pokedice.js"
+		"pokedice.js"
 	],
 	"url":"https://github.com/Sanders47/pokedice",
 	"manifest":"https://raw.githubusercontent.com/Sanders47/pokedice/main/module.json",
