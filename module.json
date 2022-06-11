@@ -3,7 +3,7 @@
 	"title": "Pokedice - pokemon themed dice for dice so nice.",
 	"description": "Pokemon themed dice created for dice so nice.",
 	"author": "Caturday",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"minimumCoreVersion": "9",
 	"scripts": [
 		"pokedice.js"

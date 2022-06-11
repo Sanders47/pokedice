@@ -13,12 +13,6 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
 	  system: "pokedice"
 	}),
 	dice3d.addDicePreset({
-	  type: "d10",
-	  labels: "",
-	  modelFile: "modules/pokedice/d10.glb",
-	  system: "pokedice"
-	}),
-	dice3d.addDicePreset({
 	  type: "d8",
 	  labels: "",
 	  modelFile: "modules/pokedice/d8.glb",
