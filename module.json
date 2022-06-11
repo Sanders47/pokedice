@@ -5,12 +5,6 @@
 	"author": "Caturday",
 	"version": "1.0.0",
 	"minimumCoreVersion": "9",
-	"dependencies": [
-		{
-		"type": "module",
-		"name": "dice-so-nice",
-		}
-	],
 	"scripts": [
 		"pokedice.js"
 	],
